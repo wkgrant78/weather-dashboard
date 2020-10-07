@@ -26,21 +26,24 @@ THEN my searched cities will show in my Favorites List
 
 * Created repo and initial commit
 * Created basic html, css and started js - added API URL and API key
-* Added vars, local storage, search btn to js - console.log successful
+* Added lets, local storage, search btn to js - console.log successful
 * Updated html & js - not pulling from open weather, think it's a mispelling
 * Changed a few styling elements, worked on js - open weather API working, still need to add UV index
-
-
+* Added low/high temps to 5 day forecast, changed some styling elements - UV index still   not working
 
 ### IMPROVEMENTS/QUESTIONS
 
+* Need to work on "badges" (i.e. color coding) - had it working
+* Would have liked to have had the city name in <h2> automatically capitalize
 
-
+### SCREENSHOT
+ <img src="weatherboard_screenshot" alt="screenshot">
 
 ### REQUIRED URLs
 
 * The URL of the deployed application:
 
+https://wkgrant78.github.io/WKG-HW6/
 
 * The URL of the GITHUB repo:
 
