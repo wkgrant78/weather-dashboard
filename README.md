@@ -37,7 +37,7 @@ THEN my searched cities will show in my Favorites List
 * Would have liked to have had the city name in <h2> automatically capitalize
 
 ### SCREENSHOT
- <img src="weatherboard_screenshot" alt="screenshot">
+ <img src="weatherboard_screenshot.png" alt="screenshot">
 
 ### REQUIRED URLs
 
