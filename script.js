@@ -116,7 +116,7 @@ function APIcalls() {
                 $("#" + day_number + "five_day_temp").text("Temperature: " + temp + "°F")
                 $("#" + day_number + "five_day_feels_like").text("Feels like: " + feels_like + "°F");
                 $("#" + day_number + "five_day_humidity").text("Humidity: " + response.list[i].main.humidity + "%");
-                $("#" + day_number + "five_day_icon").attr("src", "http://openweathermap.org/img/w/" + response.list[i].weather[0].icon + ".png");
+                $("#" + day_number + "five_day_icon").attr("src", "https://openweathermap.org/img/w/" + response.list[i].weather[0].icon + ".png");
                 // console.log(response.list[i].dt_txt.split("-"));
                 // console.log(day_number);
                 // console.log(response.list[i].main.temp);
@@ -138,13 +138,13 @@ function APIcalls() {
         $("#current_humidity").text("Humidity: " + current_data.main.humidity + " %");
         $("#current_wind").text("Wind Speed: " + current_data.wind.speed + " MPH");
         $("#current_weather_icon").attr({
-            "src": "http://openweathermap.org/img/w/" + current_data.weather[0].icon + ".png",
+            "src": "https://openweathermap.org/img/w/" + current_data.weather[0].icon + ".png",
             "height": "100px", "width": "100px"
         });
 
         var cityLat = current_data.coord.lat;
         var cityLon = current_data.coord.lon;
-        var uvurl = "http://api.openweathermap.org/data/2.5/uvi?lat=" + cityLat + "&lon=" + cityLon + apiKey
+        var uvurl = "https://api.openweathermap.org/data/2.5/uvi?lat=" + cityLat + "&lon=" + cityLon + apiKey
 
         // get current uv index from openweather
         $.ajax({
