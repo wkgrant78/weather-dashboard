@@ -1,4 +1,4 @@
-### WKG-HW6 - WEATHER DASHBOARD
+# WEATHER DASHBOARD
 
 Use the OpenWeather API to retrieve weather data for cities. The documentation includes a section called "How to start" that will provide basic setup and usage instructions. Use localStorage to store any persistent data.
 
@@ -40,12 +40,3 @@ THEN my searched cities will show in my Favorites List
 
  <img src="weatherboard_screenshot.PNG" alt="screenshot">
 
-### REQUIRED URLs
-
-* The URL of the deployed application:
-
-https://wkgrant78.github.io/WKG-HW6/
-
-* The URL of the GITHUB repo:
-
-https://github.com/wkgrant78/WKG-HW6
